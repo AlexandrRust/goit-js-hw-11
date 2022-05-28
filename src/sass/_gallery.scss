@@ -1,0 +1,44 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+// .gallery_item {
+
+// }
+
+// .gallery_item img {
+//     object-fit: contain;
+// }
+
+.photo-card {
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 220px;
+    flex-basis: calc(100% / 4 - 10px);
+    @media screen and (min-width: 1200px) {
+            flex-basis: calc(100% / 5 - 10px);
+        }
+}
+
+.info {
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    margin-right: -10px;
+    
+}
+
+.info-item {
+    font-size: 9px;
+    margin-right: 15px;
+    text-align: center;
+    flex-basis: calc(100% / 4 - 10px);
+}
+
+b {
+    display: block;
+}

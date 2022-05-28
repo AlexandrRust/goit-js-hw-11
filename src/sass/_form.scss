@@ -1,0 +1,18 @@
+.container {
+    background-color: rgba(70, 8, 214, 0.896);
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    margin: 10px 0;
+}
+
+.search-form input {
+    border-radius: 5px;
+}
+
+.search-form button {
+    border-radius: 5px;
+    margin-left: 10px;
+}
